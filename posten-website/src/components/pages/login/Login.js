@@ -1,7 +1,7 @@
 import React from "react";
 
 function login() {
-  return <div className=" bg-slate-400 h-screen"></div>;
+  return <>Hello</>;
 }
 
 export default login;
