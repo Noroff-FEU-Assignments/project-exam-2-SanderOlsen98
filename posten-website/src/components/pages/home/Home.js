@@ -1,6 +1,8 @@
 import React from "react";
 import "../../../index.css";
-import HeaderPicture from "../../../img/posten-barcode.jpg";
+import headerPicture from "../../../img/post-og-bring-bud.jpeg";
+
+console.log(headerPicture);
 
 function Home() {
   return (
