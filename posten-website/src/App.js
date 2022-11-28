@@ -7,6 +7,7 @@ import Navbar from "./components/layout/Navbar";
 import Store from "./components/store/Store";
 import Home from "./components/home/Home";
 import { AuthProvider } from "./context/AuthContext";
+import Footer from "./components/layout/footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Routes>
         </Router>
       </AuthProvider>
+      <Footer />
     </>
   );
 }

@@ -22,7 +22,7 @@ function Navbar() {
       <div className="md:flex items-center justify-between bg-white py-5 md:px-10 px-7">
         <div className=" h-6 w-28 cursor-pointer">
           <Link to="/">
-            <img src={logo} alt="logo" to="/" />
+            <img src={logo} alt="logo" to="/" onClick={() => setOpen(false)} />
           </Link>
         </div>
         <div
@@ -43,13 +43,18 @@ function Navbar() {
             {authContext.auth ? (
               <>
                 <li className="md:ml-8 text-l md:my-0 my-6">
-                  <Link to="/" className=" hover:text-red-400 duration-50">
+                  <Link
+                    to="/"
+                    onClick={() => setOpen(false)}
+                    className=" hover:text-red-400 duration-50"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="md:ml-8 text-l md:my-0 my-6">
                   <Link
                     to="/store"
+                    onClick={() => setOpen(false)}
                     className=" hover:text-red-400 duration-500"
                   >
                     Store
@@ -58,6 +63,7 @@ function Navbar() {
                 <li className="md:ml-8 text-l md:my-0 my-6">
                   <Link
                     to="/dashboard"
+                    onClick={() => setOpen(false)}
                     className=" hover:text-red-400 duration-500"
                   >
                     Dashboard
@@ -66,6 +72,7 @@ function Navbar() {
                 <li className="md:ml-8 text-l md:my-0 my-6">
                   <Link
                     to="/contact"
+                    onClick={() => setOpen(false)}
                     className=" hover:text-red-400 duration-500"
                   >
                     Contact

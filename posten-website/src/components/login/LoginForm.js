@@ -41,7 +41,7 @@ export default function LoginForm() {
       const response = await axios.post(url, data);
       console.log("response", response.data);
       authContext.setAuth(response.data);
-      navigate("/dashboard");
+      navigate("/");
     } catch (error) {
       console.log("error", error);
       setLoginError(error.toString());
