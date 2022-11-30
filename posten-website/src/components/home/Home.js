@@ -3,7 +3,7 @@ import "../../index.css";
 import headerPicture from "../../img/postenbring.jpeg";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
-import Featured from "../store/Featured";
+import Posts from "../store/Posts";
 
 console.log(headerPicture);
 
@@ -47,7 +47,10 @@ function Home() {
           </div>
         </div>
       )}
-      <Featured />
+      <h1 className="text-center text-3xl justify-start items-center font-bold p-10">
+        Updates/News from Leader
+      </h1>
+      <Posts />
     </>
   );
 }

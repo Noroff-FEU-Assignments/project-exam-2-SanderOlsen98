@@ -2,12 +2,15 @@ import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/login/Login";
 import Contact from "./components/contact/Contact";
-import Dashboard from "./components/dashboard/Dashboard";
+import DashboardLayout from "./components/dashboard/DashboardLayout";
 import Navbar from "./components/layout/Navbar";
 import Store from "./components/store/Store";
 import Home from "./components/home/Home";
 import { AuthProvider } from "./context/AuthContext";
 import Footer from "./components/layout/footer/Footer";
+import PostPage from "./components/dashboard/posts/PostPage";
+import AddPost from "./components/dashboard/posts/AddPost";
+import EditPost from "./components/dashboard/posts/EditPost";
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/store" element={<Store />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard" element={<DashboardLayout />} />
             <Route path="/login" element={<Login />} />
+            <Route exact path="/dashboard/posts" element={<PostPage />} />
+            <Route path="/dashboard/posts/add" element={<AddPost />} />
+            <Route path="/dashboard/posts/edit/:id" element={<EditPost />} />
           </Routes>
         </Router>
       </AuthProvider>

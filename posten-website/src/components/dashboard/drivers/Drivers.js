@@ -1,5 +1,5 @@
 import React from "react";
-import Popup from "./popup/Popup";
+import Popup from "../popup/Popup";
 import { useState, useEffect } from "react";
 
 function Dashboard() {
@@ -14,7 +14,7 @@ function Dashboard() {
   };
 
   return (
-    <div className=" col-span-2 min-h-[90vh] border-gray-200 items-start justify-start flex w-full py-24">
+    <div className=" col-span-2 border-gray-200 items-start justify-start flex w-full py-24">
       <div className="w-full items-start justify-start flex flex-col px-5 pt-12 pb-6">
         <h1 className=" text-lg font-bold">Sjåfører</h1>
         <div className=" py-12">
@@ -290,50 +290,52 @@ function Dashboard() {
         </div>
       </div>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <h3>Hvordan ser dagen din ut i dag?</h3>
-        <div className="py-4">
-          {/* Change colour to green */}
-          <button
-            onClick={() => {
-              click("#22c55e");
-            }}
-            className="p-1 bg-green-500 rounded relative justify-center items-center px-24 py-4"
-          >
-            Bra dag
-          </button>
-        </div>
-        <div className="py-3">
-          {/* Change colour to orange */}
-          <button
-            onClick={() => {
-              click("#f97316");
-            }}
-            className="p-1 bg-orange-500 rounded relative justify-center items-center px-20 py-4"
-          >
-            Litt Usikker
-          </button>
-        </div>
-        <div className="py-3">
-          {/* Change colour to red */}
-          <button
-            onClick={() => {
-              click("#dc2626");
-            }}
-            className="p-1 bg-red-600 rounded relative justify-center items-center px-20 py-4"
-          >
-            Trenger Hjelp!
-          </button>
-        </div>
-        <div className="py-3">
-          {/* Reset Colour */}
-          <button
-            onClick={() => {
-              click("#d1d5db");
-            }}
-            className="p-1 bg-gray-300 rounded relative justify-center items-center px-8 py-2"
-          >
-            Reset
-          </button>
+        <h3 className=" text-center">Hvordan ser dagen din ut i dag?</h3>
+        <div className="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
+          <div className="py-4">
+            {/* Change colour to green */}
+            <button
+              onClick={() => {
+                click("#22c55e");
+              }}
+              className="p-1 bg-green-500 rounded relative justify-center items-center px-24 py-4"
+            >
+              Bra dag
+            </button>
+          </div>
+          <div className="py-3">
+            {/* Change colour to orange */}
+            <button
+              onClick={() => {
+                click("#f97316");
+              }}
+              className="p-1 bg-orange-500 rounded relative justify-center items-center px-20 py-4"
+            >
+              Litt Usikker
+            </button>
+          </div>
+          <div className="py-3">
+            {/* Change colour to red */}
+            <button
+              onClick={() => {
+                click("#dc2626");
+              }}
+              className="p-1 bg-red-600 rounded relative justify-center items-center px-20 py-4"
+            >
+              Trenger Hjelp!
+            </button>
+          </div>
+          <div className="py-3">
+            {/* Reset Colour */}
+            <button
+              onClick={() => {
+                click("#d1d5db");
+              }}
+              className="p-1 bg-gray-300 rounded relative justify-center items-center px-8 py-2"
+            >
+              Reset
+            </button>
+          </div>
         </div>
       </Popup>
     </div>

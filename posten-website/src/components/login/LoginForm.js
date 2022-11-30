@@ -81,7 +81,7 @@ export default function LoginForm() {
           </div>
           <div className=" mt-2">
             <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-red-600 rounded-md hover:bg-red-400 focus:outline-none focus:bg-red-600">
-              {submitting ? "Loggin in..." : "Login"}
+              {submitting ? "Logging in..." : "Login"}
             </button>
           </div>
         </fieldset>
