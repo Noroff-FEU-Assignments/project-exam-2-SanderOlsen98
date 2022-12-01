@@ -45,6 +45,7 @@ export default function LoginForm() {
     } catch (error) {
       console.log("error", error);
       setLoginError(error.toString());
+      console.log(error.response.data);
     } finally {
       setSubmitting(false);
     }
