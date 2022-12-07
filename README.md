@@ -1,89 +1,42 @@
 # Project Exam 2
-## Goal
-To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate's general development capabilities, in addition to visual and technical skills.
+## Option 1: Real World Client
 
-## Brief
-An existing Social Media company has approached you to create a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified. Working with the official API documentation, plan, design and build a modern front end social media application.
+Make a website or application for a real world client. The project should offer a significant enough scope to be able to show off your skills as a developer, and hopefully the project can form a central part of your portfolio for when you start applying for jobs.
 
-## Requirements
+The process followed for the project will differ depending on the client and the requirements of their project.
 
-> All admin functionality is managed by an existing application. This project only covers the front-end application for the API.
+Note: The project has to have a big enough scope to show off the skills learned over your studies. An example of the level we’re expecting would be a website where administrators can add, update, remove products, and users can search, filter, and contact administrators. If you are unsure if your potential client’s brief is strong enough for the Project Exam 2, please message your tutors. Use of a JavaScript Framework is a requirement.
 
-## API
+If you do a Real World Client, your project will need to have the following:
+Visitor side:
 
-The API you are using for this project can be found under Social EndPoints in the [Noroff API documentation](https://noroff-api-docs.netlify.app/).
+    Home page
+    Search bar typeahead (auto dropdown to match the products or services the real world client has)
+    A list of products or services either on the home page or a dedicated page
+    A specific page for a product or service
+    A contact form that sends a message and which can be viewed on the admin side. This can be a modal or a page.
+    An enquiry page, either as a modal or separate page
 
-### Resources
+Admin side:
 
-[API Guide](https://noroff-api-docs.netlify.app/social-endpoints/authentication)
-[API Documentation](https://nf-api.onrender.com/docs)
+    Login section that makes use of JWT tokens
+    List of enquiries and new enquiries appear when user submits the form on the enquiry page
+    List of messages from the contact form
+    The admin can create a new product/service
+Recommended Process
 
-### User Stories
+Week 1 to 3: Finding client, Planning and Design Week 4 to 6: Coding Week 7: Bug Fixing
+Level 1 Process
 
-The client has specified the following requirements in the form of *User Stories*:
-1. A user with a `stud.noroff.no` email may register
-2. A registered user may login
-3. A registered user may update their avatar and banner
-4. A registered user may logout
-5. A registered user may view a list of `Posts`
-6. A registered user may view a list of `Profiles`
-7. A registered user may view a single `Post` by `id`
-8. A registered user may view a single `Profile` by `name`
-9. A registered user may create a `Post`
-10. A registered user may update a `Post` they own
-11. A registered user may delete a `Post` they own
-12. A registered user may create a `Comment` on any `Post`
-13. A registered user may `react` to any `Post` with an emoji
-14. A registered user may `follow` and `unfollow` another `Profile`
+    Use your networks and connections to find a client that needs a website or application built.
+    Understand their requirements and come up with a functional specification for the project. You can write the functional specification using “System shall” statements. For example, “The system shall allow visitors to search for an article”
+    Create a Gantt chart for the project, planning out your deliverables for the client.
+    Make a design style guide and then take this style guide and create an Adobe XD prototype. Present to the client for feedback.
+    Develop the site ensuring you deliver all that is listed in your functional specification.
+    Test the website on various platforms and browsers. Ensure the site is bug-free and working before presenting to the client.
+    Go through a final round of changes before going live with the website.
+    Write a report on your process and decisions for the project. Please use the report template provided.
 
-### Technical Restrictions
+Submission
 
-The company CTO has set the following technical restrictions:
-1. Must use an approved `JavaScript Framework`
-2. Must use an approved `CSS Framework`
-3. Must be hosted on an approved `Static Host`
-4. Must use an approved `Design Application`
-5. Must use an approved `Planning Application`
-
-### Required Links
-
-The Product Owner has requested links to the following:
-1. A Gantt chart for project timing
-2. A design prototype
-3. A style guide
-4. A kanban project board
-5. A repository link
-6. A hosted application demo link
-
-## Approved Resources
-This list covers libraries and services that have been vetted by the company and approved for use.
-
-### JavaScript Frameworks
-- React (>16)
-
-### CSS Frameworks
-- Bootstrap (>5)
-- Tailwind (>3)
-- MUI (>5)
-- Styled Components
-- CSS Modules
-
-### Hosting Services
-- GitHub Pages
-- Netlify
-
-### Design Applications
-- Adobe XD
-- Figma
-- Sketch
-
-### Planning Applications
-- Trello
-- GitHub Projects
-
-## Delivery
-Include the required links in the Moodle delivery window using [this template format](delivery-template.html).
-
-All final changes must be merged into the default branch `main` or `master`. Other branches will not be checked.
-
-Ensure that the `readme.md` file describes your project thoroughly, including how to setup and run the project locally and any special instructions for testers.
+End of week 3: Functional specification, Gantt chart, style guide, and Adobe XD prototype End of week 7: Report with link to website, and all files in a compressed ZIP
