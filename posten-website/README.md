@@ -10,7 +10,7 @@ Username: sanderolsen
 
 Password: Dfqcc9Uq7NeBJhYpgFQ6kM0y
 
-As of now my api redirects to localhost
+As of now my api redirects to localhost,
 I have included the wordpress XML file in order for you to import that locally to your computer in order to test with the posts etc i have created. 
 In the meanwhile i still need to figure how to fix the CORS problem.
 
