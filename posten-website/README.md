@@ -4,6 +4,20 @@ This is a project I created for Posten with the aim of making the morning meetin
 who needs help during that day and what parcels they have left behind. This website will also be easier for the drivers to keep up to date if there
 are any news.
 
+I also had some problems with CORS which led me to having problems deploying the website. I do have a Wordpress REST API that is public hosted with the following username and password:
+
+Username: sanderolsen
+Password: Dfqcc9Uq7NeBJhYpgFQ6kM0y
+
+As of now my api redirects to localhost
+I have included the entire wordpress document if needed so you can set it up to test. In the meanwhile i still need to figure how to fix the CORS problem.
+![Screenshot_15](https://user-images.githubusercontent.com/79259476/206543841-f67ed9b4-ce92-4eb5-9ce2-8fd7b3a849eb.png)
+
+But if you want to try with the public hosted API the link is below
+![Screenshot_16](https://user-images.githubusercontent.com/79259476/206544092-13766f4d-91fa-40fe-9d8c-9843b3f31def.png)
+
+
+
 ## Getting Started with This Project
 
 ## Available Scripts
