@@ -22,7 +22,7 @@ function Home() {
           <div className="flex flex-col items-center justify-center py-32 ">
             <h1 className="text-5xl font-bold text-white">Welcome</h1>
             <div className=" py-11">
-              <button className="text-2xl font-semibold items-center justify-center bg-red-500 border-none mt-5 cursor-pointer rounded-lg text-white py-1 px-10">
+              <button className="text-2xl font-semibold items-center justify-center bg-red-500 border-none mt-5 cursor-pointer rounded-lg text-white py-1 px-10 shadow-lg">
                 <Link
                   to="/dashboard"
                   className=" hover:text-red-400 duration-500"

@@ -11,6 +11,7 @@ import Footer from "./components/layout/footer/Footer";
 import PostPage from "./components/dashboard/posts/PostPage";
 import AddPost from "./components/dashboard/posts/AddPost";
 import EditPost from "./components/dashboard/posts/EditPost";
+import PostDetail from "./components/store/PostsDetail";
 
 function App() {
   return (
@@ -27,10 +28,13 @@ function App() {
             <Route exact path="/dashboard/posts" element={<PostPage />} />
             <Route path="/dashboard/posts/add" element={<AddPost />} />
             <Route path="/dashboard/posts/edit/:id" element={<EditPost />} />
+            <Route path="/detail/:id" element={<PostDetail />} />
           </Routes>
         </Router>
       </AuthProvider>
-      <Footer />
+      <div className="">
+        <Footer />
+      </div>
     </>
   );
 }

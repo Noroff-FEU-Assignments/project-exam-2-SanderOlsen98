@@ -22,7 +22,7 @@ const List = ({ items, setItems, deleteItem }) => {
           <ul className=" flex px-5 py-3 justify-between">
             <li>
               <p className="text-sm text-gray-400">
-                {items.length} Flerkolli igjen
+                {items.length} Parcel Stops Remaining
               </p>
             </li>
             <li>
@@ -30,7 +30,7 @@ const List = ({ items, setItems, deleteItem }) => {
                 className="text-sm text-gray-400"
                 onClick={() => setItems([])}
               >
-                Tøm Liste
+                Empty List
               </button>
             </li>
           </ul>

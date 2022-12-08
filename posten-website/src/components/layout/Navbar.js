@@ -57,7 +57,7 @@ function Navbar() {
                     onClick={() => setOpen(false)}
                     className=" hover:text-red-400 duration-500"
                   >
-                    Store
+                    Posts
                   </Link>
                 </li>
                 <li className="md:ml-8 text-l md:my-0 my-6">
@@ -80,7 +80,8 @@ function Navbar() {
                 </li>
                 <button
                   onClick={logout}
-                  className=" bg-red-500 text-white py-1 px-4 rounded md:ml-8 hover:bg-red-900 duration-500 md: my-0 my-6"
+                  className=" bg-red-500 text-white py-1 px-4 rounded md:ml-8 hover:bg-red-900 duration-500 md: my-0 shadow
+                  "
                 >
                   <Link
                     to="/login"
