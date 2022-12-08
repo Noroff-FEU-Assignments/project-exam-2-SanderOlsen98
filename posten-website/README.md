@@ -1,5 +1,10 @@
+# Posten Terminal Dashboard
 
-# Getting Started with This Project
+This is a project I created for Posten with the aim of making the morning meetings shorter and faster, as well as haveing a better overview of
+who needs help during that day and what parcels they have left behind. This website will also be easier for the drivers to keep up to date if there
+are any news.
+
+## Getting Started with This Project
 
 ## Available Scripts
 
