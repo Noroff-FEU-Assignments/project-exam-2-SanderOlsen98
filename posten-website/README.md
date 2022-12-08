@@ -16,7 +16,7 @@ In the meanwhile i still need to figure how to fix the CORS problem.
 
 ![Screenshot_15](https://user-images.githubusercontent.com/79259476/206543841-f67ed9b4-ce92-4eb5-9ce2-8fd7b3a849eb.png)
 
-But if you want to try with the public hosted API the link is below
+But if you want to try with the public hosted API the link is below. The username and password is still the same.
 ![Screenshot_16](https://user-images.githubusercontent.com/79259476/206544092-13766f4d-91fa-40fe-9d8c-9843b3f31def.png)
 
 
