@@ -7,6 +7,7 @@ are any news.
 I also had some problems with CORS which led me to having problems deploying the website. I do have a Wordpress REST API that is public hosted with the following username and password:
 
 Username: sanderolsen
+
 Password: Dfqcc9Uq7NeBJhYpgFQ6kM0y
 
 As of now my api redirects to localhost
