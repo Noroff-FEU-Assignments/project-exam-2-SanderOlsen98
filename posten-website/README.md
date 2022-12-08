@@ -11,7 +11,7 @@ Username: sanderolsen
 Password: Dfqcc9Uq7NeBJhYpgFQ6kM0y
 
 As of now my api redirects to localhost
-I have included the entire wordpress document if needed so you can set it up to test. 
+I have included the wordpress XML file in order for you to import that locally to your computer in order to test with the posts etc i have created. 
 In the meanwhile i still need to figure how to fix the CORS problem.
 
 ![Screenshot_15](https://user-images.githubusercontent.com/79259476/206543841-f67ed9b4-ce92-4eb5-9ce2-8fd7b3a849eb.png)
